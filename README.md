@@ -1,23 +1,24 @@
 "# LendingManagement" 
-Voici les etapes de notre projet
+Voici les étapes de notre projet
 
-Etape 1 : Comprendre les fonctionnalites du service de pret
-Le service de gestion genera trois fonctionnalites principales:
-1. Creer un pret
+Etape 1 : Comprendre les fonctionnalités du service de pret
+Le service de gestion généra trois fonctionnalités principales:
+1. Créer un pret
 2. Lister les prets d'un utilisateur
 3. Verifier la disponibilité d'un livre
 
 Etape 2 : Installation et configuration des technologies
 Technologies choisies:
     -Back-End: Python, Django API
-    -BDD: 
+    -BDD: Django, 
     -Docker
-    -SonarCUBE
+    -SonarCloud
     -Trivy
     -Github Action 
     -JSON
+    -Visual Studio Code
 
-Etape 3 : Creer la structure du projet
+Etape 3 : Créer la structure du projet
 
 Etape 4 : Dockerisation
 Création du dockerfile en fonction de notre projet.
@@ -29,6 +30,7 @@ Creation du fichier deployment.yaml pour déployer notre microservice sur Kubern
 Etape 6 : Tests unitaires
 
 Etape 7 : Documentation
+
     1. Deploiement de notre application:
 Pour executer l'application...
 
