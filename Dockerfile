@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copy package.json and install dependencies
 COPY package.json ./
-RUN pip install -r requirements.txt
+RUN pip install Django==5.1.1
 
 
 EXPOSE 8000
