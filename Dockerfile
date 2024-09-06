@@ -1,5 +1,5 @@
 # on utilise une image Python
-FROM python:3.9
+FROM python:3.12.5
 
 # on defini le repertoire de travail
 WORKDIR /app
