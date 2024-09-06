@@ -39,7 +39,7 @@ jobs:
         tags: latest
 
     - name: Run Trivy vulnerability scanner
-      uses: aquasecurity/trivy-action@v1
+      uses: aquasecurity/trivy-action@master
       with:
         image-ref: 'docker.io/sysy725/LendingManagement'
         format: 'table'
