@@ -35,6 +35,4 @@ jobs:
         vuln-type: 'os,library'
         severity: 'CRITICAL,HIGH'
 
-    - name: Build Docker image
-      run: |
-        docker push sysy725/lending-management:${{ github.sha }}
+    
