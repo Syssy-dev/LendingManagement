@@ -9,7 +9,7 @@ COPY package.json ./
 RUN pip install -r requirements.txt
 
 
-EXPOSE 5000
+EXPOSE 8000
 
 # Start the application
-CMD ["python", "app.py"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
